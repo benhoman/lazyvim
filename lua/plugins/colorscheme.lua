@@ -3,20 +3,20 @@ return {
     "folke/tokyonight.nvim",
     lazy = true,
     opts = { style = "moon" },
-    enabled = false,
+    enabled = true,
   },
   {
     "catppuccin/nvim",
     lazy = true,
     name = "catppuccin",
     opts = {
-      flavour = "mocha",
+      -- flavour = "mocha",
       -- flavour = "latte",
-      -- flavour = "auto", -- latte, frappe, macchiato, mocha
-      -- background = { -- :h background
-      --   light = "latte",
-      --   dark = "mocha",
-      -- },
+      flavour = "auto", -- latte, frappe, macchiato, mocha
+      background = { -- :h background
+        light = "latte",
+        dark = "mocha",
+      },
     },
   },
 }
