@@ -5,7 +5,7 @@ return {
       "stylua",
       "shfmt",
       "ruff",
-      "jsonls",
+      "json-lsp",
     },
   },
 }
