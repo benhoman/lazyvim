@@ -13,3 +13,5 @@ opt.ruler = true
 opt.swapfile = false
 opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.cache/nvim/undodir"
+
+vim.g.lazyvim_picker = "fzf" -- or "telescope"
