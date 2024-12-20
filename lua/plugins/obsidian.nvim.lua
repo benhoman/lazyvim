@@ -31,7 +31,8 @@ return {
 
     picker = {
       -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', or 'mini.pick'.
-      name = "fzf-lua",
+      -- name = "fzf-lua",
+      name = "telescope.nvim",
     },
 
     -- see below for full list of options 👇

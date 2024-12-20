@@ -31,3 +31,7 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to right window", remap = tr
 -- buffers
 vim.keymap.set("n", "[b", "<cmd>bprevious<cr>", { desc = "Prev buffer" })
 vim.keymap.set("n", "]b", "<cmd>bnext<cr>", { desc = "Next buffer" })
+
+-- quickfix
+vim.keymap.set("n", "[q", "<cmd>cprev<cr>", { desc = "Prev quickfix" })
+vim.keymap.set("n", "]q", "<cmd>cnext<cr>", { desc = "Next quickfix" })
