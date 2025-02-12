@@ -14,4 +14,8 @@ opt.swapfile = false
 opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.cache/nvim/undodir"
 
-vim.g.lazyvim_picker = "telescope" -- or "fzf"
+-- vim.g.lazyvim_picker = "telescope" -- or "fzf"
+vim.g.lazyvim_picker = "snacks"
+
+-- snacks
+vim.g.snacks_animate = false
