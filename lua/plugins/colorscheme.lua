@@ -1,25 +1,24 @@
 return {
-  -- {
-  --   "folke/tokyonight.nvim",
-  --   lazy = true,
-  --   opts = {
-  --     style = "moon",
-  --   },
-  --   enabled = true,
-  -- },
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      style = "moon",
+    },
+  },
   {
     "catppuccin/nvim",
-    lazy = true,
-    name = "catppuccin",
-    enabled = true,
     opts = {
-      flavour = "mocha",
-      -- flavour = "latte",
-      -- flavour = "auto", -- latte, frappe, macchiato, mocha
-      background = { -- :h background
+      flavour = "auto",
+      background = {
         light = "latte",
         dark = "mocha",
       },
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin",
     },
   },
 }
