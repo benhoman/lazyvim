@@ -12,8 +12,8 @@ return {
     -- vim.g["test#strategy"] = "neovim"
     -- vim.g["test#neovim#term_position"] = "vert"
     vim.g["test#python#runner"] = "djangotest"
-    vim.g["test#python#djangotest#executable"] = "ca test"
-    vim.g["test#python#pytest#executable"] = "ca test"
+    vim.g["test#python#djangotest#executable"] = "ca magictest"
+    vim.g["test#python#pytest#executable"] = "ca magictest"
   end,
   dependencies = {
     {
